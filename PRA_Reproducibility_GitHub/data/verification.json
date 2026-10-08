@@ -1,0 +1,81 @@
+{
+  "python": "3.13.14",
+  "numpy": "2.5.1",
+  "scipy": "1.18.0",
+  "matplotlib": "3.11.1",
+  "gp_epsilon_point1": [
+    1.0010469585482873,
+    0.590436724591128,
+    2.0048900737013744,
+    1.1825226760572625
+  ],
+  "tangent_checks": [
+    {
+      "sigma": 1,
+      "N": 10000.0,
+      "refinement_relative": 8.452103461564775e-10,
+      "asymptotic_relative": 0.05011832230408986,
+      "nfev": 653
+    },
+    {
+      "sigma": 1,
+      "N": 100000000.0,
+      "refinement_relative": 2.1786779047516802e-09,
+      "asymptotic_relative": 0.0005599305822391321,
+      "nfev": 1082
+    },
+    {
+      "sigma": 2,
+      "N": 1000000.0,
+      "refinement_relative": 6.857545642446894e-10,
+      "asymptotic_relative": 0.018465169472604237,
+      "nfev": 1001
+    },
+    {
+      "sigma": 2,
+      "N": 10000000000.0,
+      "refinement_relative": 3.297888850894992e-09,
+      "asymptotic_relative": 0.0002790125688243439,
+      "nfev": 1415
+    }
+  ],
+  "nonlinear_example": {
+    "N": 256,
+    "k": 1,
+    "g": 15.9375,
+    "epsilon": 0.1,
+    "eta": 0.0005,
+    "pulse_clock_interval": [
+      0.12,
+      0.35
+    ],
+    "rtol": 2e-12,
+    "norm_defect": 1.3322676295501878e-15,
+    "ideal_population_error": 2.1094237467877974e-15,
+    "population_linear_error": 0.0020385568685246246,
+    "half_population_linear_error": 0.0010206055731911215,
+    "state_linear_error": 0.0015049690925570613,
+    "half_state_linear_error": 0.0007515111782815665,
+    "boundary_nonlinear": [
+      0.9881237475512762,
+      0.5751583868051912
+    ],
+    "boundary_tangent": [
+      0.9813934457634483,
+      0.5794013231623207
+    ],
+    "boundary_population_error": [
+      2.0301749748985465e-05,
+      2.880502732816037e-05
+    ],
+    "boundary_infidelity": [
+      1.0426012525459785e-07,
+      1.2216984009258381e-07
+    ],
+    "boundary_times": [
+      5.791942824004904,
+      6.421699603777823
+    ],
+    "refinement_boundary_relative": 7.097833432112566e-11
+  }
+}
